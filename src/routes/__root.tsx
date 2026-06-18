@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Turquesa" },
+      { name: "description", content: "A local business landing page prototype built with React, Vite, and Tailwind CSS." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Turquesa" },
+      { property: "og:description", content: "A local business landing page prototype built with React, Vite, and Tailwind CSS." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Turquesa" },
+      { name: "twitter:description", content: "A local business landing page prototype built with React, Vite, and Tailwind CSS." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9f41b3b6-4225-48b5-9f8b-2e60b023e967/id-preview-b3df2efc--ccc586b0-bffa-4ee5-a50b-f779439893a4.lovable.app-1781811522949.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9f41b3b6-4225-48b5-9f8b-2e60b023e967/id-preview-b3df2efc--ccc586b0-bffa-4ee5-a50b-f779439893a4.lovable.app-1781811522949.png" },
     ],
     links: [
       {
