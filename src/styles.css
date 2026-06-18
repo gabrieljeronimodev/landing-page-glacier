@@ -4,6 +4,14 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+  --color-brand: #0073A9;
+  --color-brand-soft: #e8f4fb;
+  --color-sand: #c8a77c;
+}
+
 /*
  * Design system definition.
  *
@@ -63,6 +71,18 @@
 
 :root {
   --radius: 0.625rem;
+  --color-primary-rgb: 0, 115, 169;
+  --color-secondary: #c8a77c;
+  --color-accent: #e8f4fb;
+  --color-bg: #FFFFFF;
+  --color-fg: #111827;
+  --color-muted-fill: #F3F4F6;
+  --color-muted-fg-2: #6B7280;
+  --color-border-2: #E5E7EB;
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --shadow-card-hover: 0 8px 32px rgba(0, 0, 0, 0.14);
+  --radius-card: 1rem;
+  --radius-btn: 0.75rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.129 0.042 264.695);
   --card: oklch(1 0 0);
@@ -141,4 +161,19 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
   }
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); color: var(--color-fg); }
+.font-display { font-family: var(--font-display); }
+
+@keyframes wa-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+}
+.animate-wa-pulse { animation: wa-pulse 2.2s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-wa-pulse { animation: none; }
+  html { scroll-behavior: auto; }
 }
