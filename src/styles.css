@@ -71,6 +71,18 @@
 
 :root {
   --radius: 0.625rem;
+  --color-primary-rgb: 0, 115, 169;
+  --color-secondary: #c8a77c;
+  --color-accent: #e8f4fb;
+  --color-bg: #FFFFFF;
+  --color-fg: #111827;
+  --color-muted-fill: #F3F4F6;
+  --color-muted-fg-2: #6B7280;
+  --color-border-2: #E5E7EB;
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --shadow-card-hover: 0 8px 32px rgba(0, 0, 0, 0.14);
+  --radius-card: 1rem;
+  --radius-btn: 0.75rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.129 0.042 264.695);
   --card: oklch(1 0 0);
