@@ -4,6 +4,14 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+  --color-brand: #0073A9;
+  --color-brand-soft: #e8f4fb;
+  --color-sand: #c8a77c;
+}
+
 /*
  * Design system definition.
  *
