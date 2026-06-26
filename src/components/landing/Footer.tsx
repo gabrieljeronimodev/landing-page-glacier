@@ -4,8 +4,6 @@ import {
   CLIENT_HOURS,
   CLIENT_NAME,
   CLIENT_PHONE_DISPLAY,
-  FREELANCER_NAME,
-  freelancerWaLink,
   waLink,
 } from "./constants";
 
@@ -91,14 +89,9 @@ export function Footer() {
         <span className="text-xs text-white/40">
           © 2026 {CLIENT_NAME}. Todos os direitos reservados.
         </span>
-        <a
-          href={freelancerWaLink()}
-          target="_blank"
-          rel="noreferrer"
-          className="text-xs text-white/40 hover:text-white/70 transition-colors"
-        >
-          Site demonstrativo desenvolvido por {FREELANCER_NAME}
-        </a>
+        <span className="text-xs text-white/40">
+          Desenvolvido com Tecnologia moderna
+        </span>
       </div>
     </footer>
   );

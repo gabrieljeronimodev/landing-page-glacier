@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X, MessageCircle } from "lucide-react";
-import { CLIENT_NAME, FREELANCER_NAME, freelancerWaLink, waLink } from "./constants";
+import { CLIENT_NAME, waLink } from "./constants";
 
 const NAV = [
   { label: "Serviços", href: "#services" },
@@ -9,7 +9,7 @@ const NAV = [
   { label: "Contato", href: "#contact" },
 ];
 
-export function DemoBannerNav() {
+export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -22,21 +22,6 @@ export function DemoBannerNav() {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50">
-      {/* Demo banner */}
-      <div className="h-9 bg-slate-900 text-white flex items-center justify-center gap-3 px-4 text-xs sm:text-sm">
-        <span className="hidden sm:inline">🚀 Protótipo criado para {CLIENT_NAME} — gostou? Vamos deixar assim!</span>
-        <span className="sm:hidden">🚀 Protótipo demo</span>
-        <a
-          href={freelancerWaLink()}
-          target="_blank"
-          rel="noreferrer"
-          className="bg-white/10 hover:bg-white/20 rounded-full px-3 py-0.5 font-semibold transition-colors"
-        >
-          Falar com {FREELANCER_NAME}
-        </a>
-      </div>
-
-      {/* Navbar */}
       <nav
         className={`flex items-center justify-between px-6 lg:px-12 h-16 transition-all duration-300 ${
           scrolled ? "bg-white shadow-[0_2px_12px_rgba(0,0,0,0.08)]" : "bg-white/95 backdrop-blur"
