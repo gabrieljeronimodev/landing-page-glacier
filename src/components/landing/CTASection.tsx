@@ -38,7 +38,7 @@ export function CTASection() {
             className="relative inline-flex items-center gap-2 mt-8 bg-white text-[color:var(--color-brand)] px-7 py-4 font-semibold hover:scale-[1.03] transition-transform"
             style={{ borderRadius: "var(--radius-btn)" }}
           >
-            <MessageCircle size={18} /> Agendar pelo WhatsApp
+            <MessageCircle size={18} />             Agendar visita
           </a>
         </motion.div>
       </div>

@@ -32,7 +32,7 @@ export function Footer() {
           </p>
           <div className="mt-4 flex gap-3">
             <a
-              href="https://www.instagram.com/draclaudianogueiraa/"
+              href="https://www.instagram.com/gabrieljeronimodeveloper/"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram"

@@ -52,7 +52,7 @@ export function Navbar() {
             style={{ background: "var(--color-brand)", borderRadius: "var(--radius-btn)" }}
           >
             <MessageCircle size={16} />
-            Falar no WhatsApp
+            Entre em contato
           </a>
           <button
             aria-label="Abrir menu"

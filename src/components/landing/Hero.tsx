@@ -61,7 +61,7 @@ export function Hero() {
               className="inline-flex items-center gap-2 text-white px-6 py-3.5 text-sm font-semibold shadow-lg shadow-[color:rgba(0,115,169,0.25)] hover:scale-[1.02] transition-transform"
               style={{ background: "var(--color-brand)", borderRadius: "var(--radius-btn)" }}
             >
-              <MessageCircle size={18} /> Agendar Avaliação
+              <MessageCircle size={18} />               Agendar visita
             </a>
             <a
               href="#services"
