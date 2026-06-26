@@ -111,7 +111,7 @@ export function Contact() {
             style={{ boxShadow: "var(--shadow-card)" }}
           >
             <iframe
-              title="Localização da Clínica Turquesa"
+              title="Localização da Clínica Glacier"
               src={MAP_SRC}
               width="100%"
               height="100%"

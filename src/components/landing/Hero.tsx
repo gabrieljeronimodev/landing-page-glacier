@@ -49,7 +49,7 @@ export function Hero() {
           </motion.h1>
 
           <motion.p {...anim(0.22)} className="mt-5 text-lg text-gray-600 max-w-xl leading-relaxed">
-            Tratamentos personalizados com a Dra. Claudia Nogueira — protocolos modernos,
+            Tratamentos personalizados com a Dra. Claudia Nogueira. Protocolos modernos,
             resultados visíveis e o acolhimento que você merece em cada consulta.
           </motion.p>
 

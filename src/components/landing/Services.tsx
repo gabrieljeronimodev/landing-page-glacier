@@ -21,7 +21,7 @@ const services = [
     icon: Heart,
     name: "Tratamentos Corporais",
     desc:
-      "Protocolos personalizados para flacidez, gordura localizada e bem-estar — uma rotina pensada para o seu objetivo real.",
+      "Protocolos personalizados para flacidez, gordura localizada e bem-estar. Uma rotina pensada para o seu objetivo real.",
   },
   {
     icon: Smile,
@@ -47,7 +47,7 @@ export function Services() {
             Cuidado especializado para <span style={{ color: "var(--color-brand)" }}>cada etapa</span> da sua pele
           </h2>
           <p className="text-gray-600 mt-4">
-            Protocolos modernos combinados com avaliação individualizada — porque ninguém é igual.
+            Protocolos modernos combinados com avaliação individualizada, porque ninguém é igual.
           </p>
         </div>
 
