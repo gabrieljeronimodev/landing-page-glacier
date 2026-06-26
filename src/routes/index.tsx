@@ -1,4 +1,4 @@
-import { DemoBannerNav } from "@/components/landing/DemoBannerNav";
+import { Navbar } from "@/components/landing/Navbar";
 import { Hero } from "@/components/landing/Hero";
 import { TrustBar } from "@/components/landing/TrustBar";
 import { Services } from "@/components/landing/Services";
@@ -11,8 +11,8 @@ import { WhatsAppFloat, MobileCTABar } from "@/components/landing/FloatingElemen
 
 export default function Index() {
   return (
-    <div className="pb-16 md:pb-0 bg-white">
-      <DemoBannerNav />
+    <div className="bg-white">
+      <Navbar />
       <main>
         <Hero />
         <TrustBar />
