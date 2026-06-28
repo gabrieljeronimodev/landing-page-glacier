@@ -11,7 +11,7 @@ const bullets = [
   {
     icon: HandHeart,
     title: "Atendimento humanizado",
-    desc: "Cada protocolo é construído ouvindo você — sua história, sua rotina e seus objetivos.",
+    desc: "Cada protocolo é construído ouvindo você, sua história, sua rotina e seus objetivos.",
   },
   {
     icon: Stethoscope,
@@ -76,11 +76,11 @@ export function About() {
             Quem cuida de você
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mt-3 text-gray-900 leading-tight">
-            Profissional altamente qualificada — e em constante evolução.
+            Profissional altamente qualificada, em constante evolução.
           </h2>
           <p className="text-gray-600 mt-5 leading-relaxed">
             A Dra. Claudia Nogueira une formação sólida em flebologia e estética avançada a uma busca
-            permanente por novas técnicas. Aqui, cada paciente é única — e cada protocolo também.
+            permanente por novas técnicas. Aqui, cada paciente é única, e cada protocolo também.
           </p>
 
           <ul className="mt-8 flex flex-col gap-5">

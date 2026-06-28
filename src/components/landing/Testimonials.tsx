@@ -10,13 +10,13 @@ const items = [
     name: "Vânia Moleta",
     photo: vania.url,
     text:
-      "Atendimento impecável da Dra. Claudia. Resultados surpreendentes no microagulhamento — minha pele nunca esteve tão saudável.",
+      "Atendimento impecável da Dra. Claudia. Resultados surpreendentes no microagulhamento, minha pele nunca esteve tão saudável.",
   },
   {
     name: "Thais Andreatti",
     photo: thais.url,
     text:
-      "Profissional atenciosa, explica cada passo e personaliza tudo. Saio de cada sessão renovada — recomendo de olhos fechados!",
+      "Profissional atenciosa, explica cada passo e personaliza tudo. Saio de cada sessão renovada e recomendo de olhos fechados!",
   },
   {
     name: "Beatriz Nogueira",

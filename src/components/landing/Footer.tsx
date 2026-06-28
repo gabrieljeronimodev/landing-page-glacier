@@ -32,7 +32,7 @@ export function Footer() {
           </p>
           <div className="mt-4 flex gap-3">
             <a
-              href="https://www.instagram.com/draclaudianogueiraa/"
+              href="https://www.instagram.com/gabrieljeronimodeveloper/"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram"
@@ -41,10 +41,8 @@ export function Footer() {
               <InstagramIcon />
             </a>
             <a
-              href="https://www.facebook.com/p/Dra-Claudia-Nogueira-Flebo-e-Est%C3%A9tica-61574411806680/"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Facebook"
+              href="#top"
+              aria-label="Voltar ao topo"
               className="w-9 h-9 rounded-full bg-white/10 hover:bg-[color:var(--color-brand)] transition-colors flex items-center justify-center"
             >
               <FacebookIcon />

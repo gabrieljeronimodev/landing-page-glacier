@@ -4,7 +4,7 @@ import IndexPage from "./routes/index";
 
 const queryClient = new QueryClient();
 
-// Root route — provides QueryClient, renders children via Outlet
+// Root route provides QueryClient and renders children via Outlet
 const rootRoute = createRootRoute({
   component: () => (
     <QueryClientProvider client={queryClient}>
@@ -13,7 +13,7 @@ const rootRoute = createRootRoute({
   ),
 });
 
-// Index route — maps to "/"
+// Index route maps to "/"
 const indexRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/",
