@@ -1,6 +1,10 @@
 import { motion, useReducedMotion } from "motion/react";
 import { MessageCircle, ArrowRight, Sparkles, Star } from "lucide-react";
 import { waLink } from "./constants";
+import heroImg from "@/assets/hero-doctor.png";
+import avatarVania from "@/assets/avatar-vania.png";
+import avatarThais from "@/assets/avatar-thais.png";
+import avatarBeatriz from "@/assets/avatar-beatriz.png";
 
 export function Hero() {
   const reduced = useReducedMotion();
@@ -78,11 +82,12 @@ export function Hero() {
 
           <motion.div {...anim(0.42)} className="mt-10 flex items-center gap-4">
             <div className="flex -space-x-2">
-              {["#0073A9", "#c8a77c", "#5ca6cf"].map((c, i) => (
-                <div
+              {[avatarVania, avatarThais, avatarBeatriz].map((src, i) => (
+                <img
                   key={i}
-                  className="w-9 h-9 rounded-full border-2 border-white"
-                  style={{ background: `linear-gradient(135deg, ${c}, #ffffff)` }}
+                  src={src}
+                  alt={`Paciente ${i + 1}`}
+                  className="w-9 h-9 rounded-full border-2 border-white object-cover"
                 />
               ))}
             </div>
@@ -104,11 +109,16 @@ export function Hero() {
           className="relative aspect-[4/5] rounded-[2rem] overflow-hidden"
           style={{ boxShadow: "var(--shadow-card-hover)" }}
         >
+          <img
+            src={heroImg}
+            alt="Dra. Claudia Nogueira — Estética Avançada"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
           <div
             className="absolute inset-0"
             style={{
               background:
-                "radial-gradient(120% 80% at 20% 10%, rgba(232,244,251,1) 0%, rgba(0,115,169,0.85) 60%, #003a55 100%)",
+                "linear-gradient(to top, rgba(0,58,85,0.85) 0%, rgba(0,115,169,0.3) 40%, transparent 70%)",
             }}
           />
           <div className="absolute inset-0 flex flex-col justify-end p-8 text-white">
