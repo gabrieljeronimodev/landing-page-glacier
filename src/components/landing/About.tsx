@@ -1,3 +1,4 @@
+import aboutDoctor from "@/assets/about-doctor.png";
 import { motion, useReducedMotion } from "motion/react";
 import { Check, GraduationCap, HandHeart, Stethoscope } from "lucide-react";
 import { fadeUp } from "./motion-helpers";
@@ -36,17 +37,11 @@ export function About() {
             className="aspect-[4/5] rounded-[2rem] overflow-hidden relative"
             style={{ boxShadow: "var(--shadow-card-hover)" }}
           >
-            <div
-              className="absolute inset-0"
-              style={{
-                background:
-                  "linear-gradient(160deg, #e8f4fb 0%, #0073A9 70%, #003a55 100%)",
-              }}
+            <img
+              src={aboutDoctor}
+              alt="Dra. Claudia Nogueira"
+              className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-              <div className="font-display text-[8rem] font-bold leading-none opacity-90">CN</div>
-              <div className="text-sm uppercase tracking-[0.3em] mt-2 text-white/80">Dra. Claudia Nogueira</div>
-            </div>
           </div>
           <div
             className="absolute -bottom-6 -right-6 bg-white p-5 rounded-2xl max-w-[220px] hidden sm:block"

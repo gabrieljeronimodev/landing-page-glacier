@@ -1,26 +1,26 @@
 import { motion, useReducedMotion } from "motion/react";
 import { Star, Quote } from "lucide-react";
-import vania from "@/assets/testimonial-vania.png.asset.json";
-import thais from "@/assets/testimonial-thais.png.asset.json";
-import beatriz from "@/assets/testimonial-beatriz.png.asset.json";
+import vania from "@/assets/avatar-vania.png";
+import thais from "@/assets/avatar-thais.png";
+import beatriz from "@/assets/avatar-beatriz.png";
 import { fadeUp, stagger } from "./motion-helpers";
 
 const items = [
   {
     name: "Vânia Moleta",
-    photo: vania.url,
+    photo: vania,
     text:
       "Atendimento impecável da Dra. Claudia. Resultados surpreendentes no microagulhamento, minha pele nunca esteve tão saudável.",
   },
   {
     name: "Thais Andreatti",
-    photo: thais.url,
+    photo: thais,
     text:
       "Profissional atenciosa, explica cada passo e personaliza tudo. Saio de cada sessão renovada e recomendo de olhos fechados!",
   },
   {
     name: "Beatriz Nogueira",
-    photo: beatriz.url,
+    photo: beatriz,
     text:
       "A Dra. Claudia é diferenciada: cuidado humano de verdade e técnica de altíssimo nível. Hoje não vou em outra clínica.",
   },
